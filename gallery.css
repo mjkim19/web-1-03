@@ -1,0 +1,247 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: verdana;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	display: block;
+}
+
+ul {
+	position: absolute;
+}
+
+li {
+	list-style: none;
+	float: left;
+}
+
+header {
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	z-index: 1;
+	top: 0px;
+	border-bottom: 2px solid gray;
+}
+
+header>.inner-box {
+	position: relative;
+	width: 1180px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+header>.inner-box>.utility_bar {
+	right: 30px;
+	top: 20px;
+}
+
+header>.inner-box>.utility_bar>li {
+	padding: 0 10px;
+}
+
+header>.inner-box>.utility_bar>li>a {
+	color: lightgray;
+	font-size: small;
+}
+
+
+header>.inner-box>h1 {
+	position: absolute;
+	left: 10px;
+	bottom: 15px;
+	color: rgb(36, 38, 40)
+}
+
+header>.inner-box>.navigation_bar {
+	right: 0px;
+	bottom: 0px;
+	margin-bottom: 20px;
+	margin-right: 10px;
+}
+
+header>.inner-box>.navigation_bar>li {
+	padding: 0 30px;
+}
+
+header>.inner-box>.navigation_bar>li>a {
+	color: gray;
+	font-weight: bold;
+}
+
+header>.inner-box>.navigation_bar>li>a:hover {
+	color: blue;
+}
+
+section {
+	width: 1000px;
+	margin: 130px auto 0;
+	overflow: hidden;
+}
+
+section article {
+	position: relative;
+	float: left;
+}
+
+section .phrase {
+	position: absolute;
+}
+
+section>.article1 {
+	width: 700px;
+	height: 400px;
+	background-image: url("Resource 1-03/Resource 1-03 (221224)/700x400.png");
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+section>.article1>.phrase {
+	right: 10px;
+	bottom: 10px;
+	font-size: 30px;
+	color: white;
+	font-weight: bold;
+}
+
+section>.article2 {
+	width: 290px;
+	height: 190px;
+	background-image: url("Resource 1-03/Resource 1-03 (221224)/290x190.png");
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+section>.article2>.phrase {
+	top: 50px;
+	left: 10px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+section>.article3-1 {
+	width: 290px;
+	height: 95px;
+	background-image: url("Resource 1-03/Resource 1-03 (221224)/290x95-1.png");
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+section>.article3-2 {
+	width: 290px;
+	height: 95px;
+	background-image: url("Resource 1-03/Resource 1-03 (221224)/290x95-2.png");
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+}
+
+section>.article3-1>.phrase {
+	right: 10px;
+	bottom: 20px;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+section>div {
+	float: left;
+	width: 490px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+section .article4-1 {
+	width: 490px;
+	height: 240px;
+	background-image: url("Resource 1-03/Resource 1-03 (221224)/490x240-1.png");
+	margin-bottom: 5px;
+}
+
+section .article4-1>.phrase {
+	top: 160px;
+	left: 0;
+	right: 0;
+	width: max-content;
+	margin: 0 auto;
+}
+
+section .article4-2 {
+	width: 490px;
+	height: 240px;
+	background-image: url("Resource 1-03/Resource 1-03 (221224)/490x240-2.png");
+	margin-top: 5px;
+}
+
+section .article4-2>.phrase {
+	right: 20px;
+	bottom: 30px;
+	font-size: 30px;
+	font-weight: bold;
+	color: gold;
+}
+
+section>.article5 {
+	width: 500px;
+	height: 490px;
+	background-image: url("Resource 1-03/Resource 1-03 (221224)/500x490.png");
+	margin-top: 5px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+section>.article6 {
+	width: 1000px;
+	height: 371px;
+	background-image: url("Resource 1-03/Resource 1-03 (221224)/1000x371.png");
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+section>.article6>.phrase {
+	font-size: 50px;
+	font-weight: bold;
+	color: white;
+	top: 160.5px;
+	left: 0;
+	right: 0;
+	width: max-content;
+	margin: 0 auto;
+	text-shadow: 2px 2px black;
+}
+
+section>.article7 {
+	width: 1000px;
+	height: 361px;
+	background-image: url("Resource 1-03/Resource 1-03 (221224)/1000x361.png");
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+section>.article7>.inner-box {
+	position: absolute;
+	right: 30px;
+	bottom: 40px;
+	width: 450px;
+	height: 150px;
+	line-height: 50px;
+}
+
+section>.article7 .phrase {
+	font-size: 20px;
+	color: white;
+}
+
+section>.article7 .phrase>span {
+	font-size: 30px;
+	font-weight: bold;
+}
